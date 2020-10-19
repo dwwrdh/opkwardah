@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e413ef1b-0769-43fc-977d-3ddb2d844557" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project 2/.idea/Project 2 (My Portfolio).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/Project 2 (My Portfolio).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/portitem1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/portitem2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/portitem3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/profile.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/profileimg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/sitebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/images/sitebg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/koneksi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 2/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Project 2" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
+  <component name="ProjectId" id="1j2VT68LoffxO7P69Ms3eotFerg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e413ef1b-0769-43fc-977d-3ddb2d844557" name="Default Changelist" comment="" />
+      <created>1603002178456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603002178456</updated>
+      <workItem from="1603002179731" duration="1307000" />
+      <workItem from="1603005216609" duration="152000" />
+      <workItem from="1603007115703" duration="3231000" />
+      <workItem from="1603012140219" duration="21101000" />
+      <workItem from="1603117735341" duration="3241000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="92" key="#HTTP_Proxy" timestamp="1603004341536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="92" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1603004341536" />
+    <state x="0" y="85" key="#Inspections" timestamp="1603013065380">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="85" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1603013065380" />
+    <state x="101" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603025419470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="101" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603025419470" />
+    <state x="207" y="0" key="SettingsEditor" timestamp="1603009655850">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="207" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603009655850" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1603072986609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1603072986609" />
+    <state x="406" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603015827629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="406" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603015827629" />
+  </component>
+</project>
