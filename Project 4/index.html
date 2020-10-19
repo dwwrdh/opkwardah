@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#calculateArea">Calculate Area</a></li>
+            <li><a href="#calculate">Calculate Age</a></li>
+        </ul>
+    </nav>
+<!--Header Ends-->
+    <section class="calcuator" id="calculator">
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>:</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>x</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="span-two">=</button>
+    </div>
+    </section>
+    <!--Calculator Ends-->
+    <section class="calculatearea" id="calculateArea">
+        <div class="calculate-area">
+           <form action="javascript:calculateArea()" onchange="updateForm()">
+
+               <label for="id_shapes">Select a shape</label>
+               <select id="id_shapes">
+                   <option value="circle" selected>Circle</option>
+                   <option value="triangle">Triangle</option>
+                   <option value="square">Square</option>
+                   <option value="rectangle">Rectangle</option>
+               </select>
+
+               <br><br>
+
+               <div id="id_inputs_circle">
+                   <label for="id_radius">Radius</label>
+                   <input id="id_radius" type="number" min="0" step="any">
+                   <h2><em>A = &Pi;r<sup>2</sup></em></h2>
+               </div>
+
+               <div id="id_inputs_triangle" hidden>
+                   <label for="id_base">Base</label>
+                   <input id="id_base" type="number" min="0" step="any">
+                   <label for="id_height">Height</label>
+                   <input id="id_height" type="number" min="0" step="any">
+                   <h2><em>A = <sup>bh</sup>&frasl;<sub>2</sub></em></h2>
+               </div>
+
+               <div id="id_inputs_square" hidden>
+                   <label for="id_side">Side</label>
+                   <input id="id_side" type="number" min="0" step="any">
+                   <h2><em>A = s<sup>2</sup></em></h2>
+               </div>
+
+               <div id="id_inputs_rectangle" hidden>
+                   <label for="id_length">Length</label>
+                   <input id="id_length" type="number" min="0" step="any">
+                   <label for="id_width">Width</label>
+                   <input id="id_width" type="number" min="0" step="any">
+                   <h2><em>A = lw</em></h2>
+               </div>
+
+               <input type="submit" value="Calculate Area">
+               <p id="id_output"></p>
+           </form>
+
+           <script>
+               function updateForm() {
+
+                   // hide all inputs
+                   document.getElementById("id_inputs_circle").hidden = true;
+                   document.getElementById("id_inputs_triangle").hidden = true;
+                   document.getElementById("id_inputs_square").hidden = true;
+                   document.getElementById("id_inputs_rectangle").hidden = true;
+
+                   // get the selected shape and show its inputs
+                   let shape = document.getElementById("id_shapes").value;
+                   switch (shape) {
+                       case "circle":
+                           document.getElementById("id_inputs_circle").hidden = false;
+                           break;
+                       case "triangle":
+                           document.getElementById("id_inputs_triangle").hidden = false;
+                           break;
+                       case "square":
+                           document.getElementById("id_inputs_square").hidden = false;
+                           break;
+                       case "rectangle":
+                           document.getElementById("id_inputs_rectangle").hidden = false;
+                           break;
+                   }
+               }
+
+               function calculateArea() {
+
+                   // get the selected shape
+                   let shape = document.getElementById("id_shapes").value;
+
+                   // calculate the shape's area
+                   let area = 0;
+                   switch (shape) {
+                       case "circle":
+                           let radius = document.getElementById("id_radius").value;
+                           area = Math.PI * radius * radius;
+                           break;
+                       case "triangle":
+                           let base = document.getElementById("id_base").value;
+                           let height = document.getElementById("id_height").value;
+                           area = base * height / 2;
+                           break;
+                       case "square":
+                           let side = document.getElementById("id_side").value;
+                           area = side * side;
+                           break;
+                       case "rectangle":
+                           let length = document.getElementById("id_length").value;
+                           let width = document.getElementById("id_width").value;
+                           area = length * width;
+                           break;
+                   }
+
+                   // output the area
+                   document.getElementById("id_output").innerHTML = "Area = " + area;
+               }
+           </script>
+           </div>
+       </section>
+    <!--Calculator Ends-->
+    <section>
+        <div id="main_container">
+            <div id="birth_date_input">Birth Date*: <label for="birth_date"></label><input type="date" id="birth_date"></div>
+            <br/>
+            <div id="calculate">Calculate Your Age</div>
+
+            <div id="age_container"><span id="exact_age">Age</span></div>
+        </div>
+    </section>
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 Dewi Wardah</p>
+    </footer>
+</body>
+</html>
